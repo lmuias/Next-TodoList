@@ -19,3 +19,31 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.toggle-button-completed {
+  @apply bg-green-500 opacity-55
+}
+
+.grid-inputs-block {
+  @apply grid justify-between items-center grid-cols-2 gap-y-3
+}
+
+.todos-error-notification {
+  @apply text-red-500 font-bold col-start-[-2] col-end-[-1] justify-self-end
+}
+
+.input-styles {
+  @apply p-4 border-2 rounded-md focus:outline-none border-indigo-600
+}
+
+.error-color {
+  @apply border-red-500
+}
+
+.icons {
+  @apply w-6 h-6 block cursor-pointer transition-transform hover:scale-105
+}
+
+.confirm-buttons {
+  @apply px-2 py-1 rounded-md text-white font-bold hover:opacity-55 transition-opacity
+}
