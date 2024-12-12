@@ -23,6 +23,9 @@
 
 3. Встановіть залежності:
     npm install
+4. Створіть файл .env з наступними змінними:
+   NEXT_PUBLIC_SERVER_URL=http://localhost:8080/todos
+   NEXT_PUBLIC_LOCAL_URL=http://localhost:3000/api/todos
 
 Як запустити:
   Для запуску Nextjs додатка:
