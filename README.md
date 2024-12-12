@@ -16,7 +16,7 @@
 
 1. Клонуйте репозиторій:
    ```bash
-   git clone <URL вашого репозиторію>
+   git clone https://github.com/lmuias/Next-TodoList.git
 
 2. Перейдіть до папки проєкту
   cd next-todolist
